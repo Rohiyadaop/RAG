@@ -1,0 +1,64 @@
+
+# =========================
+# FASTAPI SERVER
+# =========================
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+
+# =========================
+# GEMINI API
+# =========================
+google-generativeai
+
+# =========================
+# PDF PROCESSING
+# =========================
+pypdf
+
+# =========================
+# EMBEDDING MODELS
+# =========================
+sentence-transformers
+torch
+
+# =========================
+# VECTOR DATABASE
+# =========================
+chromadb
+
+# =========================
+# LANGCHAIN (OPTIONAL BUT RECOMMENDED)
+# =========================
+langchain
+langchain-community
+langchain-google-genai
+
+# =========================
+# TOKENIZATION
+# =========================
+tiktoken
+
+# =========================
+# TELEMETRY / MONITORING
+# =========================
+langsmith
+
+# =========================
+# EVALUATIONS
+# =========================
+ragas
+datasets
+
+# =========================
+# UTILITIES
+# =========================
+numpy
+pandas
+loguru
+
+# =========================
+# CORS SUPPORT
+# =========================
+fastapi[all]
